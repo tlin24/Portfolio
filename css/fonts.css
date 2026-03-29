@@ -4,3 +4,17 @@
 	font-style: normal;
     src: url(../fonts/Givonic-Regular.otf) format('truetype');
 }
+
+@font-face {
+    font-family: "NeueMontreal";
+    font-weight: bold;
+	font-style: normal;
+    src: url(../fonts/NeueMontreal-Bold.otf) format('truetype');
+}
+
+@font-face {
+    font-family: "Simplon Mono";
+    font-weight: normal;
+	font-style: normal;
+    src: url(../fonts/Simplon\ Mono.ttf) format('truetype');
+}
