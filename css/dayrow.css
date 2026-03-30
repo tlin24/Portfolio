@@ -16,6 +16,7 @@ header {
   );
 }
 
+
 body {
   margin: 0;
   background-color: #f5f5f5;
@@ -77,3 +78,22 @@ body {
 .navbar ul li a:hover::after {
   transform: scaleX(1);
 }
+
+main {
+  padding-top: 200px; 
+}
+
+.proj-intro h1 {
+  font-family: "Givonic", sans-serif;
+  color: #2323ff;
+  font-size: 4rem;
+}
+
+.proj-intro h2 {
+  font-family: "Neue Montreal", sans-serif;
+  color: #2323ff;
+  font-size: 4rem;
+}
+
+
+
