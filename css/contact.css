@@ -1,0 +1,125 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  height: 200px;
+  background: linear-gradient(
+    to bottom,
+    rgba(242, 240, 239, 0.98) 0%,
+    rgba(242, 240, 239, 0.92) 20%,
+    rgba(242, 240, 239, 0.75) 40%,
+    rgba(242, 240, 239, 0.45) 65%,
+    rgba(242, 240, 239, 0.18) 85%,
+    rgba(242, 240, 239, 0) 100%
+  );
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/*nav*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 10%;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.navbar ul li a {
+  position: relative;
+  color: #000000;
+  font-family: "NeueMontreal", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.navbar ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #2323ff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+}
+
+.navbar ul li a:hover {
+  color: #2323ff;
+}
+
+.navbar ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+/*contacts*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 70vh;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.contact-cont {
+  width: 800px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+}
+
+.contact-cont hr {
+  width: 800px;
+  margin: 2rem 0;
+}
+
+.contact-cont h1 {
+  font-family: "Neue Montreal", sans-serif;
+  font-size: 3rem;
+}
+
+.contact-cont p {
+  font-family: "Simplon Mono", monospace;
+}
+
+/*footer*/
+footer hr {
+  border: none;
+  height: 1px;
+  background-color: black;
+  width: 100%;
+}
+
+footer a {
+  font-family: "Simplon Mono", monospace;
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 1rem;
+  color: #2323ff;
+  text-decoration: none;
+  position: relative;
+}
+
+.footer-cont {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}

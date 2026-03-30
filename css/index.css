@@ -164,9 +164,14 @@ main {
   transition: all 0.4s ease;
 }
 
+.project-card-link {
+  text-decoration: none;
+}
+
 .project-number {
   font-family: "Givonic", sans-serif;
   font-size: 4rem;
+  color: #000000;
 }
 
 .project-top-meta {
