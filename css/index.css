@@ -168,6 +168,10 @@ main {
   text-decoration: none;
 }
 
+.project-card-link:hover .project-card {
+  border-color: #2323ff;
+}
+
 .project-number {
   font-family: "Givonic", sans-serif;
   font-size: 4rem;
@@ -242,12 +246,24 @@ main {
 .project-card:hover .project-meta {
   opacity: 1;
   transform: translateY(0);
+  
 }
 
 .project-card:hover .project-number,
 .project-card:hover .project-info h3 {
   color: #2323ff;
 }
+
+.hero-right a:link,
+.hero-right a:visited {
+  color: #2323ff;   
+  text-decoration: none;
+}
+
+.highlight {
+  color: #2323ff; 
+}
+
 
 footer hr {
   border: none;
