@@ -208,12 +208,12 @@ img {
 
 .overview-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .75fr 1fr;
   gap: 4rem;
   margin-top: 3rem;
 }
 
-.overview-block h2 {
+.client-block h2 {
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
   letter-spacing: 0.08em;
@@ -222,11 +222,28 @@ img {
   font-weight: 400;
 }
 
-.overview-block p {
+.client-block p {
   margin: 0;
   font-size: 1.15rem;
   line-height: 1.7;
-  max-width: 32rem;
+  max-width: 30rem;
+  color: #000000
+}
+
+.mission-block h2 {
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  color: #2323ff;
+  font-family: "Simplon Mono", monospace;
+  font-weight: 400;
+}
+
+.mission-block p {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  max-width: 30rem;
   color: #000000
 }
 
@@ -290,7 +307,8 @@ img {
   margin: 0;
   font-size: 1.15rem;
   line-height: 1.6;
-  color: #000000
+  color: #000000;
+  max-width: 45rem;
 }
 
 .problem-heading h4 {
@@ -310,7 +328,7 @@ img {
   max-width: 20ch;
 }
 
-.approach-section {
+.approach {
   margin-bottom: 10rem;
 }
 
@@ -350,13 +368,13 @@ img {
   margin-top: 3rem;
 }
 
-.reflection-section {
+.reflection {
   margin-top: 10rem;
   padding-top: 5rem;
   border-top: 1px solid #000000;
 }
 
-.reflection-section h1 {
+.reflection h1 {
   margin: 0 0 3rem 0;
   font-size: clamp(2.8rem, 5vw, 4rem);
   line-height: 0.98;
@@ -367,11 +385,11 @@ img {
 
 .reflection-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .75fr 1fr;
   gap: 4rem;
 }
 
-.reflection-block h2 {
+.collab-block h2 {
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
   letter-spacing: 0.08em;
@@ -380,11 +398,27 @@ img {
   font-weight: 400;
 }
 
-.reflection-block p {
+.collab-block p {
   margin: 0;
   font-size: 1.15rem;
   line-height: 1.7;
-  max-width: 32rem;
+  max-width: 29rem;
+}
+
+.key-block h2 {
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  color: #2323ff;
+  font-family: "Simplon Mono", monospace;
+  font-weight: 400;
+}
+
+.key-block p {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  max-width: 37rem;
 }
 
 footer hr {
