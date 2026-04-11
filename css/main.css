@@ -94,7 +94,7 @@ code {
   color: #2323ff;
   border-radius: 6px;
   cursor: pointer;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease;
   background-color: #F5F5F5;
 }
 
